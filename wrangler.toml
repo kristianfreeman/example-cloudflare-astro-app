@@ -3,6 +3,10 @@ name = "my-astro-app"
 compatibility_date = "2024-10-22"
 pages_build_output_dir = "./dist"
 
+[[kv_namespaces]]
+binding = "MY_TEST_KV"
+id = "3fecb3765a7045a68a96a0db71202c09"
+
 # Automatically place your workloads in an optimal location to minimize latency.
 # If you are running back-end logic in a Pages Function, running it closer to your back-end infrastructure
 # rather than the end user may result in better performance.
